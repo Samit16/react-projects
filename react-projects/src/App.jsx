@@ -1,10 +1,17 @@
-import React from 'react'
+import Navigation from "./Navigation/Nav"
+import Products from "./Products/Products"
+import Recommended from "./Recommended/Recommended"
 
 function App() {
+    return ( 
+    <>
+        <Sidebar/>  
+        <Navigation/>
+        <Recommended/>
+        <Products/>
+    </>
+    )
 
-  return (
-    <h1>Hello </h1>
-  )
 }
 
 export default App
