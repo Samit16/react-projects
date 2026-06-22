@@ -3,7 +3,13 @@ import "./Colors.css"
 
 function Colors() {
     return (
-    <div>Colors</div>
+    <div>
+            <Input />
+            <Input />
+            <Input />
+            <Input />
+    </div>
+
     )
 }
 
